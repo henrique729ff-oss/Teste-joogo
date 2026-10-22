@@ -1,8 +1,9 @@
 
 {
-  "name": "teste-jogo",
+  "name": "jogo-tiro-online",
   "version": "1.0.0",
-  "description": "Servidor online do jogo",
+  "private": true,
+  "description": "Servidor multiplayer para jogo HTML de tiro",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -13,4 +14,3 @@
     "socket.io": "^4.8.1"
   }
 }
-
