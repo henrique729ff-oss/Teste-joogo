@@ -4,8 +4,11 @@
   "private": true,
   "description": "Servidor multiplayer para jogo HTML de tiro",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "dependencies": {"@supabase/supabase-js": "^2.57.0,"
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
     "express": "^4.21.2",
     "socket.io": "^4.8.1"
   }
